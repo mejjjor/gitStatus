@@ -1,0 +1,22 @@
+function maFunction_1 (content) {
+  var txt = "La valeur est: " + content; 
+  print(txt);
+}
+
+function maFunction_2 (a, b) {
+  return a + b;
+}
+
+function maFunction_3 (b, a) {
+  return b + a;
+}
+
+function main() {
+  var monNombre3 = maFunction_2(1, 2);
+  var monNombre4 = maFunction_3(3, 1);
+
+  maFunction_1(monNombre3)
+  maFunction_1(monNombre4)
+}
+
+
