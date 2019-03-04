@@ -9,7 +9,7 @@ function maFunction_2 (a, b) {
 
 function main() {
   var monNombre3 = maFunction_2(1, 2);
-  var monNombre4 = maFunction_3(3, 1);
+  var monNombre4 = maFunction_2(3, 1);
 
   maFunction_1(monNombre3)
   // maFunction_1(monNombre4)
